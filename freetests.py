@@ -154,7 +154,6 @@ class TestHTTPClient(unittest.TestCase):
             print("run_server: Thread died")
 
 
-
     def test404GET(self):
         '''Test against 404 errors'''
         MyHTTPHandler.get = nothing_available
